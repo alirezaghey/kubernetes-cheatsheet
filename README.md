@@ -44,3 +44,5 @@ data:
   username: $(echo -n "jane" | base64 -w0)
 EOF
 ```
+
+## TODO: Add kubectl tips and tricks from page 132
