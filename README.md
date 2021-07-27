@@ -14,6 +14,16 @@ For further details refer to [k8s documentation](https://kubernetes.io/docs/task
 
 ## Todo: add kubectl context and configuration
 
+## kubectl help
+```bash
+# get help
+kubectl -h
+# get help for command <command>
+kubectl <command> -h
+# get documentation on a resource type
+kubectl explain <resource_name>
+```
+
 ## kubectl apply
 `apply` enables you to create and update kubernetes resources declaratively from `yaml` files that can be versioned.
 ```
