@@ -44,5 +44,11 @@ data:
   username: $(echo -n "jane" | base64 -w0)
 EOF
 ```
+## `kubectl` tips and tricks
+### getting help
+`kubectl <command> -h       # for extensive help about <command>`
 
-## TODO: Add kubectl tips and tricks from page 132
+`kubectl explain <resource.name>      # describes the resource and its fields`
+
+
+## TODO: Continue Adding kubectl tips and tricks from page 132
