@@ -44,11 +44,13 @@ data:
   username: $(echo -n "jane" | base64 -w0)
 EOF
 ```
-## `kubectl` tips and tricks
-### getting help
+## kubectl tips and tricks
+#### getting help
 `kubectl <command> -h       # for extensive help about <command>`
 
 `kubectl explain <resource.name>      # describes the resource and its fields`
 
+#### use imperative commands to create yaml manifests
+`kubectl run alpine --image=alpine --dry-run=client --output=yaml`
 
 ## TODO: Continue Adding kubectl tips and tricks from page 132
